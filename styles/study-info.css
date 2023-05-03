@@ -1,0 +1,46 @@
+.prev-div {
+    padding: 0px 50px;
+}
+
+
+
+.participants-list {
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid rgb(238, 236, 236);
+    opacity: 1;
+}
+.c-slide {
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.c-inner {
+    height: 100%;
+}
+
+.c-item {
+    height: 100%;
+}
+
+.c-img {
+    height: 500px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.c-item p {
+    padding: 0px 50px;
+    font-weight: bold;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

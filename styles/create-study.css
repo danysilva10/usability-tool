@@ -1,0 +1,60 @@
+.hidden {
+    display: none;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.container h1{
+    color: green;
+    font-weight: 700;
+}
+
+.create-study-row{
+    margin-bottom: 50px;
+}
+
+.form-label{
+    font-weight: 700;
+}
+
+
+.add-screens-btn{
+    color: green;
+    border-color: green;
+}
+
+.add-screens-btn:hover{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.btn:active{
+    opacity: 0.75;
+}
+
+.form-select{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-type{
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(222, 226, 230);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: white;
+    transition: 0.15s;
+}
+
+.btn-type:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.btn-type:active{
+    background-color: rgb(210, 210, 210);
+}

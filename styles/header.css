@@ -1,0 +1,92 @@
+body{
+    padding-top: 100px;
+}
+
+.navbar{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-bar{
+    position:fixed;
+}
+
+.user-name p {
+    margin: 0;
+}
+
+.middle-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-titles a{
+    margin: 0 8px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.current-link {
+    border-bottom: 3px solid black;
+}
+
+.right-links{
+    display: flex;
+    align-items: center;
+}
+
+.right-links p{
+    margin-bottom: 0;
+}
+
+.right-links a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: green;
+}
+
+.btnLogOut{
+    height: 35px;
+    background: green;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px; 
+    border: none;
+    border-radius: 35px;
+    transition: opacity .3s;
+}
+
+.btnLogOut:hover{
+    opacity: 0.7;
+}
